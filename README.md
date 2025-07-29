@@ -1,5 +1,5 @@
 <!-- markdownlint-disable -->
-> 📄 **Please note** that our documentation is published over at [aka.ms/AVM](https://aka.ms/avm). Please visit this site for more information and guidance! 📄 <br><br>
+> 📄 **Please note** that our documentation is published over at [azure-verified-modules-copy](https://zojovano.github.io/azure-verified-modules-copy/). Please visit this site for more information and guidance! 📄 <br><br>
 # Azure Verified Modules (AVM)
 
 >  This repository is used for proposing and tracking the state of modules, tracking issues and feature requests as well as hosting documentation for the Azure Verified Modules (AVM) project. If you are looking for the AVM code repositories, please visit the Bicep and Terraform [module indexes](https://zojovano.github.io/azure-verified-modules-copy/indexes/) on the AVM portal for references.
