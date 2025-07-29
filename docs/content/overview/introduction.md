@@ -33,7 +33,7 @@ Our mission is to deliver a comprehensive Azure Verified Modules library in mult
 
 ## Why Azure Verified Modules?
 
-This effort to create Azure Verified Modules, with a strategy and definition, is required based on the sheer number of existing attempts from all areas across Microsoft to try and address this same area for our customers and partners. Across Microsoft there are many initiatives, projects and repositories that host and provide IaC modules in several languages, for example Bicep and Terraform. Each of these come with differing code styling and standards, consumption methods and approaches, testing frameworks, target personas, contribution guidelines, module definitions and most importantly support statements from their owners and maintainers.
+This effort to create Azure Verified Modules, with a strategy and definition, is required based on the sheer number of existing attempts from all areas across Microsoft to try and address this same area for our customers and partners. Across Microsoft there are many initiatives, projects and repositories that host and provide IaC modules in several languages, for example Terraform. Each of these come with differing code styling and standards, consumption methods and approaches, testing frameworks, target personas, contribution guidelines, module definitions and most importantly support statements from their owners and maintainers.
 
 However, none of these existing attempts have ever made it all the way through to becoming a brand and the go to place for IaC modules from Microsoft that consumers can trust (mainly around longevity and support), build upon and contribute back to.
 
@@ -49,8 +49,8 @@ Azure Verified Modules will achieve this, and its mission statement, by implemen
     - For Bicep this will be the [Bicep Public Module Registry](https://aka.ms/BRM)
     - For Terraform this will be the [HashiCorp Terraform Registry](https://registry.terraform.io/)
 2. Creating, publishing and maintaining the Azure Verified Modules specifications (this site)
-    - Including IaC language specific specifications (today Bicep and Terraform)
-3. Creating easy to follow AVM module contribution and publishing guidance for each IaC language (today Bicep and Terraform)
+    - Including IaC language specific specifications (today Terraform)
+3. Creating easy to follow AVM module contribution and publishing guidance for each IaC language (today Terraform)
 4. Enforcing tests for each AVM module is compliant with the AVM specifications, where possible, via Unit and Integration tests
 5. Enforcing End-to-End Deployment tests of each AVM module
 6. Providing, and backing, a long-term support statement, regardless of the AVM module's ownership status

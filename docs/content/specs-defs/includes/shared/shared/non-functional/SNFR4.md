@@ -23,4 +23,4 @@ priority: 1050
 
 Modules **SHOULD** implement unit testing to ensure logic and conditions within parameters/variables/locals are performing correctly. These tests **MUST** pass before a module version can be published.
 
-Unit Tests test specific module functionality, without deploying resources. Used on more complex modules. In Bicep and Terraform these live in `tests/unit`.
+Unit Tests test specific module functionality, without deploying resources. Used on more complex modules. In Terraform these live in `tests/unit`.

@@ -14,7 +14,7 @@ When implementing infrastructure in Azure leveraging IaaS and PaaS services, the
 
 ### Choosing an Infrastructure-as-Code language
 
-There are multiple language choices when implementing your solution using IaC in Azure. The Azure Verified Modules project currently supports Bicep and Terraform. The following guidance summarizes considerations that can help choose the option that best suits your requirements.
+There are multiple language choices when implementing your solution using IaC in Azure. The Azure Verified Modules project currently supports Terraform. The following guidance summarizes considerations that can help choose the option that best suits your requirements.
 
 #### Reasons to choose Bicep
 

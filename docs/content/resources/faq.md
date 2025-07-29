@@ -38,7 +38,7 @@ The AVM team worked/works closely with the teams behind the following initiative
 
 - [CARML (Common Azure Resource Modules Library)](https://aka.ms/CARML)
 - [TFVM (Terraform Verified Modules)](https://aka.ms/TFVM)
-- [BRM (Bicep Registry Modules)](https://aka.ms/BRM) - this is where the AVM Bicep modules are published.
+- [BRM (Bicep Registry Modules)](https://aka.ms/BRM) - this is where the AVM terraform modules are published.
 
 {{% notice style="note" %}}
 AVM is a straight-line evolution of CARML & TFVM.
@@ -102,15 +102,15 @@ Please see our OpenTofu support statement in this [discussion on GitHub](https:/
 
 ### What is the difference between the Bicep Registry and AVM? (How) Do they come together?
 
-The Public Bicep Registry (backed by the [BRM repository](https://aka.ms/BRM)) is Microsoft's official Bicep Registry for 1st party-supported Bicep modules. It has existed for a while now and has seen quite some contributions.
+The Public Bicep Registry (backed by the [BRM repository](https://aka.ms/BRM)) is Microsoft's official Bicep Registry for 1st party-supported terraform modules. It has existed for a while now and has seen quite some contributions.
 
-As various teams inside Microsoft have come together to establish a "One Microsoft" IaC approach and library, we started the AVM initiative to bridge the gaps by defining specifications for both Bicep and Terraform modules.
+As various teams inside Microsoft have come together to establish a "One Microsoft" IaC approach and library, we started the AVM initiative to bridge the gaps by defining specifications for both Terraform modules.
 
-In the BRM repo today, "vanilla modules" (non-AVM modules) can be found in the `/modules` folder, while AVM modules are located in the `/avm` folder. Both are being published to the same endpoint, the Public Bicep Registry. AVM Bicep modules are published in a dedicated namespace, using the `avm/res` & `avm/ptn` prefixes to make them distinguishable from the Public Registry's "vanilla modules".
+In the BRM repo today, "vanilla modules" (non-AVM modules) can be found in the `/modules` folder, while AVM modules are located in the `/avm` folder. Both are being published to the same endpoint, the Public Bicep Registry. AVM terraform modules are published in a dedicated namespace, using the `avm/res` & `avm/ptn` prefixes to make them distinguishable from the Public Registry's "vanilla modules".
 
 {{% notice style="note" %}}
 
-Going forward, AVM will become the single Microsoft standard for Bicep modules, published to the Public Bicep Registry, via the BRM repository.
+Going forward, AVM will become the single Microsoft standard for terraform modules, published to the Public Bicep Registry, via the BRM repository.
 
 In the upcoming period, existing "vanilla" modules will be retired or migrated to AVM, and new modules will be developed according to the AVM specifications.
 
@@ -120,9 +120,9 @@ In the upcoming period, existing "vanilla" modules will be retired or migrated t
 
 ### How is AVM different from Bicep private registries and TemplateSpecs? Is AVM related to, or separate from Azure Radius?
 
-AVM - with its modules published in the Public Bicep Registry (backed by the [BRM repository](https://aka.ms/BRM)) - represents the only standard from Microsoft for Bicep modules in the Public Registry.
+AVM - with its modules published in the Public Bicep Registry (backed by the [BRM repository](https://aka.ms/BRM)) - represents the only standard from Microsoft for terraform modules in the Public Registry.
 
-Bicep private registries and TemplateSpecs are different ways of inner-sourcing, sharing and internally leveraging Bicep modules within an organization. We're planning to provide guidance for theses scenarios in the future.
+Bicep private registries and TemplateSpecs are different ways of inner-sourcing, sharing and internally leveraging terraform modules within an organization. We're planning to provide guidance for theses scenarios in the future.
 
 AVM has nothing to do with Radius (yet), but the AVM core team is constantly looking for additional synergies inside Microsoft.
 
@@ -246,13 +246,13 @@ New modules can't be created and published without having a module owner assigne
 You can find modules missing owners in the following places:
 
 1. [All new modules looking for owners](https://aka.ms/AVM/NeedsModuleOwner) or see the "Looking for owners" swimlane [here](https://aka.ms/AVM/NeedsModuleOwner/Project)
-    - [New Bicep modules looking for owners](https://aka.ms/AVM/Bicep/NeedsModuleOwner) or see the "Looking for owners" swimlane [here](https://aka.ms/AVM/Bicep/NeedsModuleOwner/Project)
+    - [New terraform modules looking for owners](https://aka.ms/AVM/Bicep/NeedsModuleOwner) or see the "Looking for owners" swimlane [here](https://aka.ms/AVM/Bicep/NeedsModuleOwner/Project)
     - [New Terraform modules looking for owners](https://aka.ms/AVM/TF/NeedsModuleOwner) or see the "Looking for owners" swimlane [here](https://aka.ms/AVM/TF/NeedsModuleOwner/Project)
 2. [All Orphaned modules](https://aka.ms/AVM/OrphanedModules) or see the "Orphaned" swimlane [here](https://aka.ms/AVM/OrphanedModules/Project)
-    - [Orphaned Bicep modules](https://aka.ms/AVM/Bicep/OrphanedModules) or see the "Orphaned" swimlane [here](https://aka.ms/AVM/Bicep/OrphanedModules/Project)
+    - [Orphaned terraform modules](https://aka.ms/AVM/Bicep/OrphanedModules) or see the "Orphaned" swimlane [here](https://aka.ms/AVM/Bicep/OrphanedModules/Project)
     - [Orphaned Terraform modules](https://aka.ms/AVM/TF/OrphanedModules) or see the "Orphaned" swimlane [here](https://aka.ms/AVM/TF/OrphanedModules/Project)
 3. [All modules looking for contributors](https://aka.ms/AVM/NeedsModuleContributor)
-    - [Bicep modules looking for contributors](https://aka.ms/AVM/Bicep/NeedsModuleContributor)
+    - [terraform modules looking for contributors](https://aka.ms/AVM/Bicep/NeedsModuleContributor)
     - [Terraform modules looking for contributors](https://aka.ms/AVM/TF/NeedsModuleContributor)
 
 {{% notice style="tip" %}}
@@ -285,7 +285,7 @@ Of course! As all modules are open source, anyone can submit a PR to an existing
 
 ### Are there any videos on how to get started with contribution? E.g., how to set up a local environment for development, how to write a unit test etc.?
 
-No videos on the technical details of contribution are available (yet), but a detailed, written guidance can be found for both Bicep and Terraform, here:
+No videos on the technical details of contribution are available (yet), but a detailed, written guidance can be found for both Terraform, here:
 
 - [Bicep contribution guide]({{% siteparam base %}}/contributing/bicep/)
 - [Terraform contribution guide]({{% siteparam base %}}/contributing/terraform/)
@@ -362,7 +362,7 @@ Entra objects - May come as new modules if/when the Graph provider will be relea
 
 ### How does AVM ensure code quality?
 
-AVM utilizes a number of validation pipelines for both Bicep and Terraform. These pipelines are run on every PR and ensure that the code is compliant with the AVM specifications and that the module is working as expected.
+AVM utilizes a number of validation pipelines for both Terraform. These pipelines are run on every PR and ensure that the code is compliant with the AVM specifications and that the module is working as expected.
 
 For example, in case of Bicep, as part of the [PR process]({{% siteparam base %}}/contributing/bicep/bicep-contribution-flow/#6-create-a-pull-request-to-the-public-bicep-registry), we're asking contributors to provide a workflow status badge as a proof of successful validation using our testing pipelines.
 
@@ -406,7 +406,7 @@ The high level steps are:
 
 ## Using AVM
 
-### How can I use Bicep modules through the Public Registry?
+### How can I use terraform modules through the Public Registry?
 
 Please see the Bicep Quickstart guide [here]({{% siteparam base %}}/usage/quickstart/bicep/).
 

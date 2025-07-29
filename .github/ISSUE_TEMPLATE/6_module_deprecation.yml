@@ -23,7 +23,7 @@ body:
     id: existing-module-from-elsewhere
     attributes:
       label: Check this module isn't already deprecated in the module indexes
-      description: By submitting this issue, you confirm that you have checked the [Bicep](https://zojovano.github.io/azure-verified-modules-copy/indexes/bicep/) or [Terraform](https://zojovano.github.io/azure-verified-modules-copy/indexes/terraform/) module indexes for the module you are requesting to be deprecated.
+      description: By submitting this issue, you confirm that you have checked the [Terraform](https://zojovano.github.io/azure-verified-modules-copy/indexes/terraform/) module indexes for the module you are requesting to be deprecated.
       options:
         - label: I have checked for that this module isn't already deprecated.
           required: true

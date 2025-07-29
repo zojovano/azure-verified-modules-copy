@@ -20,7 +20,7 @@ priority: 11040
 
 ## ID: BCPNFR3 - Category: Documentation - Usage Example formats
 
-Usage examples for Bicep modules **MUST** be provided in the following formats:
+Usage examples for terraform modules **MUST** be provided in the following formats:
 
 - Bicep file (orchestration module style) - `.bicep`
 

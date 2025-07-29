@@ -41,7 +41,7 @@ Follow these steps to triage a module proposal:
 
 1. Add the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#E4E669;">Status: In Triage 🔍</mark>&nbsp; label to indicate you're in the process of triaging the issue.
 2. Check module proposal issue/form:
-    - Check the [Bicep]({{% siteparam base %}}/indexes/bicep/) or [Terraform]({{% siteparam base %}}/indexes/terraform/) module indexes for the proposed module to make sure it is not already available or being worked on.
+    - Check the [Bicep]({{% siteparam base %}}/indexes/terraform/) or [Terraform]({{% siteparam base %}}/indexes/terraform/) module indexes for the proposed module to make sure it is not already available or being worked on.
     - Ensure the module's details are correct as per specifications - [naming]({{% siteparam base %}}/spec/RMNFR1), [classification]({{% siteparam base %}}/specs/shared/module-classifications/) (resource/pattern) etc.
     - Check if the module is added to the "`Proposed`" column on the [AVM - Modules Triage](https://aka.ms/avm/moduletriage) GitHub project board.
     - Check if the requestor is a Microsoft FTE.
@@ -137,7 +137,7 @@ You **MUST** still confirm that the requestor is a Microsoft FTE and that they u
 Although, it's not directly part of the module proposal triage process, to begin development, module owners and contributors might need additional help from the AVM core team, such as:
 
 1. Update any Azure RBAC permissions for test tenants/subscription, if needed.
-2. In case of **Bicep modules** only:
+2. In case of **terraform modules** only:
     - Look for the module owners confirmation on the related `[Module Proposal]` issue that they have created the required `-module-owners-` and `-module-contributors-` GitHub teams.
     - Ensure the `-module-owners-` and `-module-contributors-` GitHub teams have been assigned to their respective parent teams as outlined [here]({{% siteparam base %}}/spec/snfr20/#grant-permissions---bicep).
     - Ensure the [`CODEOWNERS`](https://github.com/Azure/bicep-registry-modules/blob/main/.github/CODEOWNERS) file in the [BRM repo](https://aka.ms/BRM) has been updated.

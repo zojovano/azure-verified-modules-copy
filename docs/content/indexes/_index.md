@@ -8,9 +8,9 @@ description: Module Index pages for the Azure Verified Modules (AVM) program
 
 ## Summary
 
-The following table shows the number of all available, orphaned and planned **AVM Bicep and Terraform Modules**.
+The following table shows the number of all available, orphaned and planned **AVM Terraform Modules**.
 
-{{% moduleStats language="All" moduleType="All" showLanguage=true showClassification=true %}}
+{{% moduleStats language="Terraform" moduleType="All" showLanguage=true showClassification=true %}}
 
 {{% expand title="➕ Additional information" %}}
 

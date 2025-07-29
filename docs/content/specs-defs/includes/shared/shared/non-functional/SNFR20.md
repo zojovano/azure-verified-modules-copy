@@ -29,8 +29,8 @@ There **MUST NOT** be any GitHub repository permissions assigned to individual u
 {{% notice style="note" %}}
 The names for the GitHub teams for each approved module are already defined in the respective [Module Indexes]({{% siteparam base %}}/indexes/). These teams **MUST** be created (and used) for each module.
 
-- [Bicep Resource Modules]({{% siteparam base %}}/indexes/bicep/bicep-resource-modules/#module-name-telemetry-id-prefix-github-teams-for-owners--contributors)
-- [Bicep Pattern Modules]({{% siteparam base %}}/indexes/bicep/bicep-pattern-modules/#module-name-telemetry-id-prefix-github-teams-for-owners--contributors)
+- [Bicep Resource Modules]({{% siteparam base %}}/indexes/terraform/tf-resource-modules/#module-name-telemetry-id-prefix-github-teams-for-owners--contributors)
+- [Bicep Pattern Modules]({{% siteparam base %}}/indexes/terraform/tf-pattern-modules/#module-name-telemetry-id-prefix-github-teams-for-owners--contributors)
 - [Terraform Resource Modules]({{% siteparam base %}}/indexes/terraform/tf-resource-modules/#module-name-telemetry-id-prefix-github-teams-for-owners--contributors)
 - [Terraform Pattern Modules]({{% siteparam base %}}/indexes/terraform/tf-pattern-modules/#module-name-telemetry-id-prefix-github-teams-for-owners--contributors)
 
@@ -50,7 +50,7 @@ The naming convention for the GitHub teams **MUST** follow the below pattern:
 - `<hyphenated module name>-module-contributors-<bicep/tf>` - to be assigned as the GitHub repository's `Module Contributors` team
 
 {{% notice style="note" %}}
-The naming convention for Bicep modules is slightly different than the naming convention for their respective GitHub teams.
+The naming convention for terraform modules is slightly different than the naming convention for their respective GitHub teams.
 {{% /notice %}}
 
 Segments:
@@ -80,7 +80,7 @@ Unless explicitly requested and agreed, members of the AVM core team or any PG t
 
 {{% notice style="note" %}}
 
-In case of Bicep modules, permissions to the [BRM](https://aka.ms/BRM) repository (the repo of the Bicep Registry) are granted via assigning the `-module-owners-` and `-module-contributors-` teams to parent teams that already have the required level access configured. While it is the module owner's responsibility to initiate the addition of their teams to the respective parents, only the AVM core team can approve this parent-child relationship.
+In case of terraform modules, permissions to the [BRM](https://aka.ms/BRM) repository (the repo of the Bicep Registry) are granted via assigning the `-module-owners-` and `-module-contributors-` teams to parent teams that already have the required level access configured. While it is the module owner's responsibility to initiate the addition of their teams to the respective parents, only the AVM core team can approve this parent-child relationship.
 
 {{% /notice %}}
 

@@ -74,7 +74,7 @@ How is this specification checked/validated/enforced?
 - `CI/Informational` means that the module is checked against the specification by a CI pipeline, but the failure is only informational and doesn't block the module release.
 - `CI/Enforced` means that the specification is automatically enforced by a CI pipeline, and the failure blocks the module release.
 
-Note: the `BCP/` or `TF/` prefix is required as shared (language-agnostic) specifications may have different level of validation/enforcement per each language - e.g., it is possible that a specification is enforced by a CI pipeline for Bicep modules, while it is manually enforced for Terraform modules.
+Note: the `BCP/` or `TF/` prefix is required as shared (language-agnostic) specifications may have different level of validation/enforcement per each language - e.g., it is possible that a specification is enforced by a CI pipeline for terraform modules, while it is manually enforced for Terraform modules.
 
 {{% /expand %}}
 

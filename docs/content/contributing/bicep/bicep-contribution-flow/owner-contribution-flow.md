@@ -3,7 +3,7 @@ title: Owner Contribution Flow
 description: Bicep Owner Contribution Flow for the Azure Verified Modules (AVM) program
 ---
 
-This section describes the contribution flow for module owners who are responsible for creating and maintaining Bicep Modules.
+This section describes the contribution flow for module owners who are responsible for creating and maintaining terraform modules.
 
 {{% notice style="important" %}}
 
@@ -120,7 +120,7 @@ For a full list of GitHub notification types, see [Filtering Email Notifications
 
 ## 5. Contribution Checklist
 
-This checklist can be used in the development of AVM Bicep Modules.
+This checklist can be used in the development of AVM terraform modules.
 
 1. Before beginning any work a new module a valid [Issue: New AVM Module Proposal](https://github.com/zojovano/azure-verified-modules-copy/issues/new?assignees=&labels=Type%3A+New+Module+Proposal+%3Abulb%3A%2CNeeds%3A+Triage+%3Amag%3A&projects=Azure%2F529&template=module_proposal.yml&title=%5BModule+Proposal%5D%3A+%60MODULE_NAME_BETWEEN_BACKTICKS%60) needs to be created. Instructions for creating the module proposal are outlined in the issue template. Pay particular attention to the questions and associated links to fill out the proposal accurately. Please do not start work on your proposed module until you receive a notification that your proposal has been accepted.
 2. Fork the bicep-registry-modules [BRM](https://github.com/Azure/bicep-registry-modules) repository. If you use an existing fork, ensure it's up to date with origin/BRM.

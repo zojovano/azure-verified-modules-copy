@@ -1,6 +1,6 @@
 ---
 title: Bicep Contribution Guide
-linktitle: Bicep Modules
+linktitle: terraform modules
 description: Bicep Contribution Guidance for the Azure Verified Modules (AVM) program
 ---
 

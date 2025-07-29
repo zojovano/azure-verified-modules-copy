@@ -16,7 +16,7 @@ When developing an Azure solution using AVM modules, there are several aspects t
 
 ## Language-agnostic concepts
 
-Topics/concepts that are relevant and applicable for both Bicep and Terraform.
+Topics/concepts that are relevant and applicable for both Terraform.
 
 ### Module Sourcing
 
@@ -36,7 +36,7 @@ Inner-sourcing AVM means maintaining your own, synchronized copy of AVM modules 
 
 This is a more complex approach and requires more effort to maintain, but it can be beneficial in certain scenarios, however, it should not be the default approach as it can lead to a lot of overhead and maintenance and requires significant skills and resources to set up and maintain.
 
-There are many ways to approach inner-sourcing AVM modules for both Bicep and Terraform. The AVM team will be publishing guidance on this topic, based on customer experience and learnings.
+There are many ways to approach inner-sourcing AVM modules for both Terraform. The AVM team will be publishing guidance on this topic, based on customer experience and learnings.
 
 {{% notice style="tip" %}}
 
@@ -125,7 +125,7 @@ Note: pipeline orchestrated deployments are not to be confused with the inner wo
 
 #### Referencing template specs
 
-In the inner-sourcing scenario, you can leverage Template specs as an alternative to setting up your own private registry. A [Template Spec](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-powershell) is an Azure resource with the purpose of storing & referencing Azure Resource Manager (ARM) templates. When publishing Bicep modules as Template Specs, the module is compiled - and the resulting ARM template is uploaded as a Template Spec resource version to a Resource Group of your choice. As Bicep supports the Template-Specs as linked templates, this approach enables you to fully utilize Azure's parallel deployment capabilities. Even though the published resource is an ARM template, you can reference it in you Bicep template as a remote module like it would be native Bicep.
+In the inner-sourcing scenario, you can leverage Template specs as an alternative to setting up your own private registry. A [Template Spec](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-specs?tabs=azure-powershell) is an Azure resource with the purpose of storing & referencing Azure Resource Manager (ARM) templates. When publishing terraform modules as Template Specs, the module is compiled - and the resulting ARM template is uploaded as a Template Spec resource version to a Resource Group of your choice. As Bicep supports the Template-Specs as linked templates, this approach enables you to fully utilize Azure's parallel deployment capabilities. Even though the published resource is an ARM template, you can reference it in you Bicep template as a remote module like it would be native Bicep.
 
 #### Azure Deployment Environments (and integration)
 

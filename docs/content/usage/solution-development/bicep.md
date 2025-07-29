@@ -397,7 +397,7 @@ When you are ready, you can remove the infrastructure deployed in this example. 
   {{% /tab %}}
 {{% /tabs %}}
 
-Congratulations, you have successfully leveraged AVM Bicep modules to deploy resources in Azure!
+Congratulations, you have successfully leveraged AVM terraform modules to deploy resources in Azure!
 
 {{% notice style="tip" %}}
 We welcome your contributions and feedback to help us improve the AVM modules and the overall experience for the community!

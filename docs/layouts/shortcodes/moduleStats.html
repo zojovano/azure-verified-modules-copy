@@ -1,14 +1,8 @@
 {{ $showLanguage := .Get "showLanguage" | default true }}
 {{ $showClassification := .Get "showClassification" | default true }}
-{{ $language := .Get "language" | default "All" }}
+{{ $language := .Get "language" | default "Terraform" }}
 {{ $moduleType := .Get "moduleType" | default "All" }}
 
-{{ $bicepResFile := readFile "/static/module-indexes/BicepResourceModules.csv" }}
-{{ $bicepResRows := $bicepResFile | transform.Unmarshal (dict "delimiter" ",") }}
-{{ $bicepPtnFile := readFile "/static/module-indexes/BicepPatternModules.csv" }}
-{{ $bicepPtnRows := $bicepPtnFile | transform.Unmarshal (dict "delimiter" ",") }}
-{{ $bicepUtlFile := readFile "/static/module-indexes/BicepUtilityModules.csv" }}
-{{ $bicepUtlRows := $bicepUtlFile | transform.Unmarshal (dict "delimiter" ",") }}
 {{ $tfResFile := readFile "/static/module-indexes/TerraformResourceModules.csv" }}
 {{ $tfResRows := $tfResFile | transform.Unmarshal (dict "delimiter" ",") }}
 {{ $tfPtnFile := readFile "/static/module-indexes/TerraformPatternModules.csv" }}
@@ -27,35 +21,6 @@
     <th align="right">SUM</th>
   </tr>
 </thead>
-{{ if in (slice "Bicep" "All") $language }}
-{{ if in (slice "Resource" "All") $moduleType }}
-<tr>
-  {{ if $showLanguage }}<td rowspan="3"><a href="{{ .Site.Params.base }}/indexes/bicep/" style="color: inherit; text-decoration: none; background-color: transparent;">Bicep</a></td>{{ end }}
-  {{ if $showClassification }}<td><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-resource-modules/" style="color: inherit; text-decoration: none; background-color: transparent;">Resource</a></td>{{ end }}
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-resource-modules/#published-modules-----" style="color: inherit; text-decoration: none; background-color: transparent;">{{ add (partial "countModules" (dict "rows" $bicepResRows "moduleStatusToCount" "Available" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepResRows "moduleStatusToCount" "Orphaned" "countParentsOrChildren" "ParentsOnly")) }}</a></td>
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-resource-modules/#proposed-modules---" style="color: inherit; text-decoration: none; background-color: transparent;">{{ partial "countModules" (dict "rows" $bicepResRows "moduleStatusToCount" "Proposed" "countParentsOrChildren" "ParentsOnly") }}</a></td>
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-resource-modules/#all-modules---" style="color: inherit; text-decoration: none; background-color: transparent; font-weight: bold">{{ add (partial "countModules" (dict "rows" $bicepResRows "moduleStatusToCount" "Available" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepResRows "moduleStatusToCount" "Orphaned" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepResRows "moduleStatusToCount" "Proposed" "countParentsOrChildren" "ParentsOnly")) }}</a></td>
-</tr>
-{{ end }}
-{{ if in (slice "Pattern" "All") $moduleType }}
-<tr>
-  {{ if and (eq $moduleType "Pattern") $showLanguage }}<td><a href="{{ .Site.Params.base }}/indexes/bicep/" style="color: inherit; text-decoration: none; background-color: transparent;">Bicep</a></td>{{ end }}
-  {{ if $showClassification }}<td><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-pattern-modules/" style="color: inherit; text-decoration: none; background-color: transparent;">Pattern</a></td>{{ end }}
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-pattern-modules/#published-modules-----" style="color: inherit; text-decoration: none; background-color: transparent;">{{ add (partial "countModules" (dict "rows" $bicepPtnRows "moduleStatusToCount" "Available" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepPtnRows "moduleStatusToCount" "Orphaned" "countParentsOrChildren" "ParentsOnly")) }}</a></td>
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-pattern-modules/#proposed-modules---" style="color: inherit; text-decoration: none; background-color: transparent;">{{ partial "countModules" (dict "rows" $bicepPtnRows "moduleStatusToCount" "Proposed" "countParentsOrChildren" "ParentsOnly") }}</a></td>
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-pattern-modules/#all-modules---" style="color: inherit; text-decoration: none; background-color: transparent; font-weight: bold">{{ add (partial "countModules" (dict "rows" $bicepPtnRows "moduleStatusToCount" "Available" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepPtnRows "moduleStatusToCount" "Orphaned" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepPtnRows "moduleStatusToCount" "Proposed" "countParentsOrChildren" "ParentsOnly")) }}</a></td>
-</tr>
-{{ end }}
-{{ if in (slice "Utility" "All") $moduleType }}
-<tr>
-  {{ if and (eq $moduleType "Utility") $showLanguage }}<td><a href="{{ .Site.Params.base }}/indexes/bicep/" style="color: inherit; text-decoration: none; background-color: transparent;">Bicep</a></td>{{ end }}
-  {{ if $showClassification }}<td><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-utility-modules/" style="color: inherit; text-decoration: none; background-color: transparent;">Utility</a></td>{{ end }}
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-utility-modules/#published-modules-----" style="color: inherit; text-decoration: none; background-color: transparent;">{{ add (partial "countModules" (dict "rows" $bicepUtlRows "moduleStatusToCount" "Available" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepUtlRows "moduleStatusToCount" "Orphaned" "countParentsOrChildren" "ParentsOnly")) }}</a></td>
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-utility-modules/#proposed-modules---" style="color: inherit; text-decoration: none; background-color: transparent;">{{ partial "countModules" (dict "rows" $bicepUtlRows "moduleStatusToCount" "Proposed" "countParentsOrChildren" "ParentsOnly") }}</a></td>
-  <td align="right"><a href="{{ .Site.Params.base }}/indexes/bicep/bicep-utility-modules/#all-modules---" style="color: inherit; text-decoration: none; background-color: transparent; font-weight: bold">{{ add (partial "countModules" (dict "rows" $bicepUtlRows "moduleStatusToCount" "Available" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepUtlRows "moduleStatusToCount" "Orphaned" "countParentsOrChildren" "ParentsOnly")) (partial "countModules" (dict "rows" $bicepUtlRows "moduleStatusToCount" "Proposed" "countParentsOrChildren" "ParentsOnly")) }}</a></td>
-</tr>
-{{ end }}
-{{ end }}
 {{ if in (slice "Terraform" "All") $language }}
 {{ if in (slice "Resource" "All") $moduleType }}
 <tr>

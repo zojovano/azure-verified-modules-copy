@@ -1,25 +1,17 @@
 # {{ .Site.Title }}
 
-Azure Verified Modules (AVM) - A comprehensive library of standardized, tested Azure infrastructure-as-code modules for Bicep and Terraform.
+Azure Verified Modules (AVM) - A comprehensive library of standardized, tested Azure infrastructure-as-code modules for Terraform.
 
 ## Summary
 This document contains links to all Azure Verified Modules documentation organized by category, with direct links to the source markdown files in the GitHub repository.
-
-## Bicep AVM Modules
-
-Details on the available Bicep AVM modules can be found in the following CSV files, which contain links to the source of each module, the status of the modules, and the owner/s of the modules:
-
-- [Bicep Resource Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/BicepResourceModules.csv)
-- [Bicep Pattern Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/BicepPatternModules.csv)
-- [Bicep Utility Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/BicepUtilityModules.csv)
 
 ## Terraform AVM Modules
 
 Details on the available Terraform AVM modules can be found in the following CSV files, which contain links to the source of each module, the status of the modules, and the owner/s of the modules:
 
-- [Bicep Resource Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformResourceModules.csv)
-- [Bicep Pattern Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformPatternModules.csv)
-- [Bicep Utility Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformUtilityModules.csv)
+- [Terraform Resource Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformResourceModules.csv)
+- [Terraform Pattern Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformPatternModules.csv)
+- [Terraform Utility Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformUtilityModules.csv)
 
 
 {{- $baseGithubURL := "https://raw.githubusercontent.com/zojovano/azure-verified-modules-copy/refs/heads/main/docs/content" -}}

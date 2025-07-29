@@ -26,7 +26,7 @@ This script/tool is currently being developed by the AVM team and will be made a
 
 {{% /notice %}}
 
-Bicep modules documentation **MUST** be automatically generated via the provided script/tooling from the AVM team, providing the following headings:
+terraform modules documentation **MUST** be automatically generated via the provided script/tooling from the AVM team, providing the following headings:
 
 - Title
 - Description

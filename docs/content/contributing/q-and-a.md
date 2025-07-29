@@ -50,7 +50,7 @@ Below, we provide some guidance on what modules you can / cannot propose.
 
 ### Where do I need to go to make sure the module I'd like to propose is not already in the works?
 
-The [AVM core team]({{% siteparam base %}}/specs/shared/team-definitions/#avm-core-team) maintains the list of [Bicep]({{% siteparam base %}}/indexes/bicep/) and [Terraform]({{% siteparam base %}}/indexes/terraform/) modules and tracks the status of each module. Based on this list, you can check if the module you'd like to build is already in the works (e.g., it's being worked on in a feature branch but hasn't been published yet).
+The [AVM core team]({{% siteparam base %}}/specs/shared/team-definitions/#avm-core-team) maintains the list of [Bicep]({{% siteparam base %}}/indexes/terraform/) and [Terraform]({{% siteparam base %}}/indexes/terraform/) modules and tracks the status of each module. Based on this list, you can check if the module you'd like to build is already in the works (e.g., it's being worked on in a feature branch but hasn't been published yet).
 
 To see the formatted lists with additional information, please visit the [AVM Module Indexes]({{% siteparam base %}}/indexes/) page.
 

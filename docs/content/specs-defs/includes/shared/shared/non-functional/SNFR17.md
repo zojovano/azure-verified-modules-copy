@@ -24,7 +24,7 @@ priority: 1210
 
 {{% notice style="important" %}}
 
-You cannot specify the patch version for Bicep modules in the public Bicep Registry, as this is automatically incremented by 1 each time a module is published. You can only set the Major and Minor versions.
+You cannot specify the patch version for terraform modules in the public Bicep Registry, as this is automatically incremented by 1 each time a module is published. You can only set the Major and Minor versions.
 
 See the [Bicep Contribution Guide]({{% siteparam base %}}/contributing/bicep/) for more information.
 
