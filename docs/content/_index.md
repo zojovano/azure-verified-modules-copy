@@ -1,6 +1,6 @@
 ---
-title: Azure Verified Modules
-linktitle: Azure Verified Modules
+title: Azure Verified Modules (Copy)
+linktitle: Azure Verified Modules (Copy)
 type: home
 description: 'Azure Verified Modules - The Microsoft IaC Module Strategy'
 ---
