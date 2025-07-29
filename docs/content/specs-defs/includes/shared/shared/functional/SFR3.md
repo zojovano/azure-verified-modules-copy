@@ -22,7 +22,7 @@ priority: 30
 
 {{% notice style="important" %}}
 
-We will maintain a set of CSV files in the [AVM Central Repo (`Azure/Azure-Verified-Modules`)](https://github.com/Azure/Azure-Verified-Modules/tree/main/docs/static/module-indexes) with the required TelemetryId prefixes to enable checks to utilize this list to ensure the correct IDs are used. To see the formatted content of these CSV files with additional information, please visit the [AVM Module Indexes]({{% siteparam base %}}/indexes) page.
+We will maintain a set of CSV files in the [AVM Central Repo (`Azure/Azure-Verified-Modules`)](https://github.com/zojovano/azure-verified-modules-copy/tree/main/docs/static/module-indexes) with the required TelemetryId prefixes to enable checks to utilize this list to ensure the correct IDs are used. To see the formatted content of these CSV files with additional information, please visit the [AVM Module Indexes]({{% siteparam base %}}/indexes) page.
 
 These will also be provided as a comment on the module proposal, once accepted, from the AVM core team.
 

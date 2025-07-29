@@ -37,7 +37,7 @@ Make sure module authors/contributors tested their module in their environment b
 
 Once your module has been approved and you are ready to start development, you need to request that a new repository be created for your module.
 
-You do that by adding a comment to the [issue](https://github.com/Azure/Azure-Verified-Modules/issues) with the `#RFRC` tag. The &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#136A41;color:white;">Status: Ready For Repository Creation 📝</mark>&nbsp; label will then be applied. This will trigger the creation of the repository and the configuration of the repository with the required settings.
+You do that by adding a comment to the [issue](https://github.com/zojovano/azure-verified-modules-copy/issues) with the `#RFRC` tag. The &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#136A41;color:white;">Status: Ready For Repository Creation 📝</mark>&nbsp; label will then be applied. This will trigger the creation of the repository and the configuration of the repository with the required settings.
 
 {{% notice style="info" %}}
 If you need your repository to be created urgently, please message the AVM Core team in the AVM Teams channel.
@@ -62,9 +62,9 @@ Once readdy for review, you can request a review per step 4.
 #### Grept
 
 [Grept](https://github.com/Azure/grept) is a linting tool for repositories, ensures predefined standards, maintains codebase consistency, and quality.
-It's using the grept configuration files from the [Azure-Verified-Modules-Grept](https://github.com/Azure/Azure-Verified-Modules-Grept) repository.
+It's using the grept configuration files from the [Azure-Verified-Modules-Grept](https://github.com/zojovano/azure-verified-modules-copy-Grept) repository.
 
-You can see [here](https://github.com/Azure/Azure-Verified-Modules-Grept/blob/main/terraform/synced_files.grept.hcl) which files are synced from the [`terraform-azurerm-avm-template`](https://github.com/Azure/terraform-azurerm-avm-template) repository.
+You can see [here](https://github.com/zojovano/azure-verified-modules-copy-Grept/blob/main/terraform/synced_files.grept.hcl) which files are synced from the [`terraform-azurerm-avm-template`](https://github.com/Azure/terraform-azurerm-avm-template) repository.
 
 Set environment variables and run Grept:
 

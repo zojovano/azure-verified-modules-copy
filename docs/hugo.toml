@@ -1,4 +1,4 @@
-baseURL = 'https://azure.github.io/Azure-Verified-Modules/'
+baseURL = 'https://zojovano.github.io/azure-verified-modules-copy/'
 languageCode = 'en-us'
 title = 'AVM'
 theme = 'hugo-theme-relearn'
@@ -30,7 +30,7 @@ sidebarmenus = [
   # { type = 'page', identifier = 'home', main = true, disableTitle = true, pageRef = '' },
   # { type = 'menu', identifier = 'shortcuts', main = false, disableTitle = false },
 ]
-editURL = 'https://github.com/Azure/Azure-Verified-Modules/edit/main/docs/content/${FilePath}'
+editURL = 'https://github.com/zojovano/azure-verified-modules-copy/edit/main/docs/content/${FilePath}'
 disableInlineCopyToClipBoard = true
 disableAnchorScrolling = false
 alwaysopen = true

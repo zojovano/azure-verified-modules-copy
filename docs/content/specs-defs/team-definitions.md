@@ -16,7 +16,7 @@ Individuals can be members of multiple teams, at once, that are defined below.
 
 ### AVM Core Team
 
-GitHub Team: [`@Azure/avm-core-team`](https://github.com/orgs/Azure/teams/avm-core-team)
+GitHub Team: [`@Azure/avm-core-team`](https://github.com/orgs/zojovano/teams/avm-core-team)
 
 The AVM core team are responsible for:
 
@@ -74,8 +74,8 @@ Module Contributors **MUST** be added to a separate [GitHub Team in the `Azure` 
 
 GitHub Teams:
 
-- [`@Azure/bicep-admins`](https://github.com/orgs/Azure/teams/bicep-admins) = Bicep PG team
-- [`@Azure/terraform-avm`](https://github.com/orgs/Azure/teams/terraform-avm) = Azure Terraform PG
+- [`@Azure/bicep-admins`](https://github.com/orgs/zojovano/teams/bicep-admins) = Bicep PG team
+- [`@Azure/terraform-avm`](https://github.com/orgs/zojovano/teams/terraform-avm) = Azure Terraform PG
 
 The Azure Bicep & Terraform Product Groups are responsible for:
 

@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        By filling this issue template, you're requesting a given AVM module to be [deprecated](https://azure.github.io/Azure-Verified-Modules/specs/shared/module-lifecycle/#deprecated-modules).
+        By filling this issue template, you're requesting a given AVM module to be [deprecated](https://zojovano.github.io/azure-verified-modules-copy/specs/shared/module-lifecycle/#deprecated-modules).
 
         This request should primarily be submitted by the module owner, but can be submitted by anyone. The module owner will be contacted to confirm the deprecation request.
 
@@ -15,7 +15,7 @@ body:
     id: existing-checks
     attributes:
       label: Check for previous/existing GitHub issues/deprecation requests
-      description: By submitting this issue, you confirm that you have [searched for previous/existing GitHub issues/module deprecation requests](https://github.com/Azure/Azure-Verified-Modules/issues?q=is%3Aissue+sort%3Aupdated-desc+) to avoid creating a duplicate.
+      description: By submitting this issue, you confirm that you have [searched for previous/existing GitHub issues/module deprecation requests](https://github.com/zojovano/azure-verified-modules-copy/issues?q=is%3Aissue+sort%3Aupdated-desc+) to avoid creating a duplicate.
       options:
         - label: I have checked for previous/existing GitHub issues/module deprecation requests.
           required: true
@@ -23,7 +23,7 @@ body:
     id: existing-module-from-elsewhere
     attributes:
       label: Check this module isn't already deprecated in the module indexes
-      description: By submitting this issue, you confirm that you have checked the [Bicep](https://azure.github.io/Azure-Verified-Modules/indexes/bicep/) or [Terraform](https://azure.github.io/Azure-Verified-Modules/indexes/terraform/) module indexes for the module you are requesting to be deprecated.
+      description: By submitting this issue, you confirm that you have checked the [Bicep](https://zojovano.github.io/azure-verified-modules-copy/indexes/bicep/) or [Terraform](https://zojovano.github.io/azure-verified-modules-copy/indexes/terraform/) module indexes for the module you are requesting to be deprecated.
       options:
         - label: I have checked for that this module isn't already deprecated.
           required: true

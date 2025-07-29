@@ -1,6 +1,6 @@
 # {{ .Title }}
 
-{{- $baseGithubURL := "https://raw.githubusercontent.com/Azure/Azure-Verified-Modules/refs/heads/main/docs/content" }}
+{{- $baseGithubURL := "https://raw.githubusercontent.com/zojovano/azure-verified-modules-copy/refs/heads/main/docs/content" }}
 
 {{ if .Description }}{{ .Description | plainify }}{{ end }}
 

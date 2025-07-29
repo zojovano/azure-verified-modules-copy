@@ -13,7 +13,7 @@ The AVM module review is a critical step before an AVM Terraform module gets pub
 
 3. The module owner assigns the `avm-core-team-technical-terraform` GitHub team as reviewer on the PR.
 
-4. The module owner leaves the following comment as it is on the module proposal in the [AVM - Module Triage](https://github.com/orgs/Azure/projects/529) project by searching for their module proposal by name there.
+4. The module owner leaves the following comment as it is on the module proposal in the [AVM - Module Triage](https://github.com/orgs/zojovano/projects/529) project by searching for their module proposal by name there.
 
     {{% expand title="➕ AVM Terraform Module Review Request" %}}
 
@@ -25,7 +25,7 @@ I have completed my initial development of the module and I would like to reques
 
 {{% /expand %}}
 
-5. The AVM team moves the module proposal from "In Development" to "In Review" in the [AVM - Module Triage](https://github.com/orgs/Azure/projects/529) project.
+5. The AVM team moves the module proposal from "In Development" to "In Review" in the [AVM - Module Triage](https://github.com/orgs/zojovano/projects/529) project.
 
 6. The AVM team will assign a module reviewer who will open a blank issue on the module titled "AVM-Review" and populate it with the below mark down. This template already marks the specs as compliant which are covered by the checks that run on the PR. There are some specs which don't need to be checked at the time of publishing the module therefore they are marked as NA.
 
@@ -76,4 +76,4 @@ GitHub Repo Link: <REPLACE WITH THE LINK OF THE MODULE IN GITHUB>"
 13. Once the module owner perform the requested action in the previous step, the module reviewer updates the module proposal by performing the following steps:
 
 - Assign label Status: Module Available :green_circle: to the module proposal.
-- Update the module index excel file and CSV file by creating a PR to update the module index and links the module proposal as an issue that gets closed once the PR is merged which will move the module proposal from "In Review" to "Done" in the [AVM - Module Triage](https://github.com/orgs/Azure/projects/529) project.
+- Update the module index excel file and CSV file by creating a PR to update the module index and links the module proposal as an issue that gets closed once the PR is merged which will move the module proposal from "In Review" to "Done" in the [AVM - Module Triage](https://github.com/orgs/zojovano/projects/529) project.

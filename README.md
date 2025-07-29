@@ -1,11 +1,13 @@
 <!-- markdownlint-disable -->
 > 📄 **Please note** that our documentation is published over at [aka.ms/AVM](https://aka.ms/avm). Please visit this site for more information and guidance! 📄 <br><br>
->  This repository is used for proposing and tracking the state of modules, tracking issues and feature requests as well as hosting documentation for the Azure Verified Modules (AVM) project. If you are looking for the AVM code repositories, please visit the Bicep and Terraform [module indexes](https://azure.github.io/Azure-Verified-Modules/indexes/) on the AVM portal for references.
+# Azure Verified Modules (AVM)
+
+>  This repository is used for proposing and tracking the state of modules, tracking issues and feature requests as well as hosting documentation for the Azure Verified Modules (AVM) project. If you are looking for the AVM code repositories, please visit the Bicep and Terraform [module indexes](https://zojovano.github.io/azure-verified-modules-copy/indexes/) on the AVM portal for references.
 <!-- markdownlint-restore -->
 
 # Azure Verified Modules (AVM)
-<!-- [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/azure/azure-verified-modules.svg)](http://isitmaintained.com/project/azure/azure-verified-modules "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/azure/azure-verified-modules.svg)](http://isitmaintained.com/project/azure/azure-verified-modules "Percentage of issues still open") -->
+<!-- [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/zojovano/azure-verified-modules-copy.svg)](http://isitmaintained.com/project/zojovano/azure-verified-modules-copy "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/zojovano/azure-verified-modules-copy.svg)](http://isitmaintained.com/project/zojovano/azure-verified-modules-copy "Percentage of issues still open") -->
 
 <img src="docs/static/images/avm_logo.png" width=20% align=right>
 

@@ -46,7 +46,7 @@ For most scenario this is the command you'll need to call the below PowerShell s
 # For Windows replace $PWD with your the local path or your repository
 #
 docker run -it -v $PWD:/repo -w /repo mcr.microsoft.com/powershell pwsh -Command '
-    #Invoke-WebRequest -Uri "https://azure.github.io/Azure-Verified-Modules/scripts/Set-AvmGitHubLabels.ps1" -OutFile "Set-AvmGitHubLabels.ps1"
+    #Invoke-WebRequest -Uri "https://zojovano.github.io/azure-verified-modules-copy/scripts/Set-AvmGitHubLabels.ps1" -OutFile "Set-AvmGitHubLabels.ps1"
     $gh_version = "2.44.1"
     Invoke-WebRequest -Uri "https://github.com/cli/cli/releases/download/v2.44.1/gh_2.44.1_linux_amd64.tar.gz" -OutFile "gh_$($gh_version)_linux_amd64.tar.gz"
     apt-get update && apt-get install -y git

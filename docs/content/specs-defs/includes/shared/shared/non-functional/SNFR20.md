@@ -22,7 +22,7 @@ priority: 1110
 
 All GitHub repositories that AVM module are published from and hosted within **MUST** only assign GitHub repository permissions to GitHub teams only.
 
-Each module **MUST** have separate GitHub teams assigned for module owners **AND** module contributors respectively. These GitHub teams **MUST** be created in the [Azure organization](https://github.com/orgs/Azure/teams) in GitHub.
+Each module **MUST** have separate GitHub teams assigned for module owners **AND** module contributors respectively. These GitHub teams **MUST** be created in the [Azure organization](https://github.com/orgs/zojovano/teams) in GitHub.
 
 There **MUST NOT** be any GitHub repository permissions assigned to individual users.
 

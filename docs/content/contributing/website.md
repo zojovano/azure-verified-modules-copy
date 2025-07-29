@@ -24,11 +24,11 @@ That's okay and you really don't need them. Hugo just needs you to be able to au
 
 Read and follow the below sections to leave you in a "ready state" to contribute to AVM.
 
-A "ready state" means you have a forked copy of the [`Azure/Azure-Verified-Modules` repo](https://aka.ms/avm/repo) cloned to your local machine and open in VS Code.
+A "ready state" means you have a forked copy of the [`zojovano/azure-verified-modules-copy` repo](https://github.com/zojovano/azure-verified-modules-copy) cloned to your local machine and open in VS Code.
 
 ## Run and Access a Local Copy of AVM Website During Development
 
-When in VS Code you should be able to open a terminal and run the below commands to access a copy of the AVM website from a local web server, provided by Hugo, using the following address [`http://localhost:1313/Azure-Verified-Modules/`](http://localhost:1313/Azure-Verified-Modules/):
+When in VS Code you should be able to open a terminal and run the below commands to access a copy of the AVM website from a local web server, provided by Hugo, using the following address [`http://localhost:1313/azure-verified-modules-copy/`](http://localhost:1313/azure-verified-modules-copy/):
 
 ```text
 cd docs
@@ -65,7 +65,7 @@ winget install --id 'Hugo.Hugo.Extended'
 ### Other requirements
 
 - [A GitHub profile/account](https://github.com/join)
-- A fork of the [`Azure/Azure-Verified-Modules` repo](https://aka.ms/avm/repo) into your GitHub org/account and cloned locally to your .
+- A fork of the [`zojovano/azure-verified-modules-copy` repo](https://github.com/zojovano/azure-verified-modules-copy) into your GitHub org/account and cloned locally to your .
   - Instructions on forking a repo and then cloning it can be found [here](https://docs.github.com/get-started/quickstart/fork-a-repo).
 
 ## Useful Resources

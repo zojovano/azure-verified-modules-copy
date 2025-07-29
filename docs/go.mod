@@ -1,4 +1,4 @@
-module azure.github.io/Azure-Verified-Modules
+module zojovano.github.io/azure-verified-modules-copy
 
 go 1.23.4
 

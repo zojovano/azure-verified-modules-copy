@@ -101,7 +101,7 @@ param (
   [int]$GitHubCliLimit = 999,
 
   [Parameter(Mandatory = $false)]
-  [string]$LabelsToApplyCsvUri = "https://azure.github.io/Azure-Verified-Modules/governance/avm-standard-github-labels.csv",
+  [string]$LabelsToApplyCsvUri = "https://zojovano.github.io/azure-verified-modules-copy/governance/avm-standard-github-labels.csv",
 
   [Parameter(Mandatory = $false)]
   [bool]$NoUserPrompts = $false

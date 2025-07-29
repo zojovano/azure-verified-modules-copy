@@ -9,20 +9,20 @@ This document contains links to all Azure Verified Modules documentation organiz
 
 Details on the available Bicep AVM modules can be found in the following CSV files, which contain links to the source of each module, the status of the modules, and the owner/s of the modules:
 
-- [Bicep Resource Modules](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/BicepResourceModules.csv)
-- [Bicep Pattern Modules](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/BicepPatternModules.csv)
-- [Bicep Utility Modules](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/BicepUtilityModules.csv)
+- [Bicep Resource Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/BicepResourceModules.csv)
+- [Bicep Pattern Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/BicepPatternModules.csv)
+- [Bicep Utility Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/BicepUtilityModules.csv)
 
 ## Terraform AVM Modules
 
 Details on the available Terraform AVM modules can be found in the following CSV files, which contain links to the source of each module, the status of the modules, and the owner/s of the modules:
 
-- [Bicep Resource Modules](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/TerraformResourceModules.csv)
-- [Bicep Pattern Modules](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/TerraformPatternModules.csv)
-- [Bicep Utility Modules](https://github.com/Azure/Azure-Verified-Modules/blob/main/docs/static/module-indexes/TerraformUtilityModules.csv)
+- [Bicep Resource Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformResourceModules.csv)
+- [Bicep Pattern Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformPatternModules.csv)
+- [Bicep Utility Modules](https://github.com/zojovano/azure-verified-modules-copy/blob/main/docs/static/module-indexes/TerraformUtilityModules.csv)
 
 
-{{- $baseGithubURL := "https://raw.githubusercontent.com/Azure/Azure-Verified-Modules/refs/heads/main/docs/content" -}}
+{{- $baseGithubURL := "https://raw.githubusercontent.com/zojovano/azure-verified-modules-copy/refs/heads/main/docs/content" -}}
 
 ## Documentation Sections
 

@@ -5,9 +5,9 @@ Thanks for requesting/proposing to be an AVM module owner!
 
 We just want to confirm **you agree to the below pages** that define what module ownership means:
 
-- [Team Definitions & RACI](https://azure.github.io/Azure-Verified-Modules/specs/shared/team-definitions)
-- [Module Specifications](https://azure.github.io/Azure-Verified-Modules/specs/module-specs)
-- [Module Support](https://azure.github.io/Azure-Verified-Modules/help-support/module-support)
+- [Team Definitions & RACI](https://zojovano.github.io/azure-verified-modules-copy/specs/shared/team-definitions)
+- [Module Specifications](https://zojovano.github.io/azure-verified-modules-copy/specs/module-specs)
+- [Module Support](https://zojovano.github.io/azure-verified-modules-copy/help-support/module-support)
 
 Any questions or clarifications needed, let us know!
 

@@ -47,7 +47,7 @@ An issue is considered to be an "AVM module issue" if
 
 - it was opened through the **\[[AVM Module Issue](https://aka.ms/BRM/AVMModuleIssue)]** template in the [BRM repository](https://aka.ms/BRM),
 - it has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#F0FFFF;">Type: AVM 🅰️ ✌️ ⓜ️</mark>&nbsp; applied to it, and
-- it is assigned to the "[AVM - Module Issues](https://github.com/orgs/Azure/projects/566)" GitHub project.
+- it is assigned to the "[AVM - Module Issues](https://github.com/orgs/zojovano/projects/566)" GitHub project.
 
 {{% notice style="note" %}}
 Module issues can only be opened for existing AVM modules. Module issues **MUST NOT** be used to file a module proposal.
@@ -100,7 +100,7 @@ An issue is considered to be an "AVM Question/Feedback" if
 
 - it was opened through the **\[[AVM Question/Feedback](https://aka.ms/BRM/AVMQuestionFeedback)]** template in the [BRM repository](https://aka.ms/BRM),
 - it has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp;, &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#CB6BA2;">Type: Question/Feedback 🙋‍♀️</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#F0FFFF;">Type: AVM 🅰️ ✌️ ⓜ️</mark>&nbsp; applied to it, and
-- it is assigned to the "[AVM - Issue Triage](https://github.com/orgs/Azure/projects/538)" GitHub project.
+- it is assigned to the "[AVM - Issue Triage](https://github.com/orgs/zojovano/projects/538)" GitHub project.
 
 An issue is considered to be a "standard issue" or "blank issue" if it was opened without using an issue template, and hence it does **NOT** have any labels assigned, OR only has the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; label assigned.
 

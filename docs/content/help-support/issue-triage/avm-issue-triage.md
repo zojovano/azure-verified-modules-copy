@@ -35,7 +35,7 @@ An issue is considered to be a module proposal if
 
 - it was opened through the "[New AVM Module Proposal 📝](https://aka.ms/avm/moduleproposal)" template,
 - it has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#ADD8E6;">Type: New Module Proposal 💡</mark>&nbsp; applied to it, and
-- it is assigned to the "[AVM - Module Triage](https://github.com/orgs/Azure/projects/529)" GitHub project.
+- it is assigned to the "[AVM - Module Triage](https://github.com/orgs/zojovano/projects/529)" GitHub project.
 
 Follow these steps to triage a module proposal:
 
@@ -177,7 +177,7 @@ Once the **Orphaned Module issue** was closed, it **MUST remain closed**. If the
 {{% /notice %}}
 
 1. Submit an "orphaned module" issue by using the "[Orphaned AVM Module 🟡](https://aka.ms/AVM/OrphanedModule)" issue template.
-2. Make sure the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp;, &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FF0019;color:white;">Needs: Module Owner 📣</mark>&nbsp;, and the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#F4A460;">Status: Module Orphaned 🟡</mark>&nbsp; labels are assigned to the issue and it is assigned to the "[AVM - Module Triage](https://github.com/orgs/Azure/projects/529)" GitHub project.
+2. Make sure the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp;, &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FF0019;color:white;">Needs: Module Owner 📣</mark>&nbsp;, and the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#F4A460;">Status: Module Orphaned 🟡</mark>&nbsp; labels are assigned to the issue and it is assigned to the "[AVM - Module Triage](https://github.com/orgs/zojovano/projects/529)" GitHub project.
 3. Move the issue into the "`Orphaned`" column on the [AVM - Modules Triage](https://aka.ms/avm/moduletriage) GitHub Project board.
 4. Update the AVM Module Indexes, following the [process documented internally](https://dev.azure.com/CSUSolEng/Azure%20Verified%20Modules/_wiki/wikis/AVM%20Internal%20Wiki/684/Module-index-update-process).
 5. Place an information notice as per the below guidelines:
@@ -261,7 +261,7 @@ If a module meets the criteria described in the "[Deprecated Modules]({{% sitepa
 **Language agnostic steps**
 
 1. Submit a "deprecated module" issue by using the "[Deprecate AVM Module 🔴](https://aka.ms/avm/DeprecatedModule)" issue template.
-2. Make sure the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; and the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#000000;color:white;">Status: Module Deprecated 🔴</mark>&nbsp; labels are assigned to the issue and it is assigned to the "[AVM - Module Triage](https://github.com/orgs/Azure/projects/529)" GitHub project.
+2. Make sure the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; and the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#000000;color:white;">Status: Module Deprecated 🔴</mark>&nbsp; labels are assigned to the issue and it is assigned to the "[AVM - Module Triage](https://github.com/orgs/zojovano/projects/529)" GitHub project.
 3. Update the AVM Module Indexes, following the [process documented internally](https://dev.azure.com/CSUSolEng/Azure%20Verified%20Modules/_wiki/wikis/AVM%20Internal%20Wiki/684/Module-index-update-process).
 
 **Bicep specific steps**
@@ -269,7 +269,7 @@ If a module meets the criteria described in the "[Deprecated Modules]({{% sitepa
 4. Place an information notice as per the below guidelines:
     1. Place the information notice - with the text below - in an `DEPRECATED.md` file, in the module's root.
     1. Add a 'DEPRECATED - ' prefix to the `main.bicep`'s metadata description. For example, `metadata description = 'DEPRECATED - This module deploys a XYZ'` - i.e, add the 'DEPRECATED' prefix while keeping your original description. This description will be displayed to users of the VS-Code Bicep extension when searching for the module.
-    1. Run the [`utilities/tools/Set-AVMModule.ps1`](https://github.com/Azure/bicep-registry-modules/blob/main/utilities/tools/Set-AVMModule.ps1) utility with the module path as an input. This re-generates the module’s `README.md` file, so that the `README.md` file will also contain the same notice in its header. For more instructions on how to use the script, please refer to the corresponding section in the [Contribution Guide](https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/generate-bicep-module-files/).
+    1. Run the [`utilities/tools/Set-AVMModule.ps1`](https://github.com/Azure/bicep-registry-modules/blob/main/utilities/tools/Set-AVMModule.ps1) utility with the module path as an input. This re-generates the module’s `README.md` file, so that the `README.md` file will also contain the same notice in its header. For more instructions on how to use the script, please refer to the corresponding section in the [Contribution Guide](https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/generate-bicep-module-files/).
     2. Make sure the content of the `DEPRECATED.md` file is displayed in the `README.md` in its header (right after the title).
     3. Publish a new patch version, having the updated `README.md` stating the module is deprecated.
 5. Once the information notice is placed, submit a Pull Request (the first one of the 2 required).
@@ -300,9 +300,9 @@ If a module meets the criteria described in the "[Deprecated Modules]({{% sitepa
 
 ## General feedback/question, documentation update and other standard issues
 
-An issue is a "General Question/Feedback ❔" if it was opened through the ["General Question/Feedback ❔"](https://github.com/Azure/Azure-Verified-Modules/issues/new?assignees=&labels=Type%3A+Question%2FFeedback+%3Araising_hand%3A&projects=&template=question_feedback.yml&title=%5BQuestion%2FFeedback%5D%3A+) issue template, and has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#CB6BA2;color:white;">Type: Question/Feedback 🙋‍♀️</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; applied to it.
+An issue is a "General Question/Feedback ❔" if it was opened through the ["General Question/Feedback ❔"](https://github.com/zojovano/azure-verified-modules-copy/issues/new?assignees=&labels=Type%3A+Question%2FFeedback+%3Araising_hand%3A&projects=&template=question_feedback.yml&title=%5BQuestion%2FFeedback%5D%3A+) issue template, and has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#CB6BA2;color:white;">Type: Question/Feedback 🙋‍♀️</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; applied to it.
 
-An issue is a "AVM Documentation Update 📘" if it was opened through the ["AVM Documentation Update 📘"](https://github.com/Azure/Azure-Verified-Modules/issues/new?template=documentation_update.yml) issue template, and has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#0075CA;color:white;">Type: Documentation 📄</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; applied to it.
+An issue is a "AVM Documentation Update 📘" if it was opened through the ["AVM Documentation Update 📘"](https://github.com/zojovano/azure-verified-modules-copy/issues/new?template=documentation_update.yml) issue template, and has the labels of &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#0075CA;color:white;">Type: Documentation 📄</mark>&nbsp; and &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; applied to it.
 
 An issue is considered to be a "standard issue" or "blank issue" if it was opened without using an issue template, and hence it does **NOT** have any labels assigned, OR only has the &nbsp;<mark style="background-image:none;white-space: nowrap;background-color:#FBCA04;">Needs: Triage 🔍</mark>&nbsp; label assigned.
 

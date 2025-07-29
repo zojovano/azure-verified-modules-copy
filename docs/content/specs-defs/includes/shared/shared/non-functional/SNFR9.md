@@ -24,8 +24,8 @@ A module owner **MUST** make the following GitHub teams in the Azure GitHub orga
 
 ### Bicep
 
-- [`@Azure/avm-core-team-technical-bicep`](https://github.com/orgs/Azure/teams/avm-core-team-technical-bicep) = AVM Core Team
-- [`@Azure/bicep-admins`](https://github.com/orgs/Azure/teams/bicep-admins) = Bicep PG team
+- [`@Azure/avm-core-team-technical-bicep`](https://github.com/orgs/zojovano/teams/avm-core-team-technical-bicep) = AVM Core Team
+- [`@Azure/bicep-admins`](https://github.com/orgs/zojovano/teams/bicep-admins) = Bicep PG team
 
 {{% notice style="note" %}}
 These required GitHub teams are already associated to the [BRM](https://aka.ms/BRM) repository and have the required permissions.
@@ -33,8 +33,8 @@ These required GitHub teams are already associated to the [BRM](https://aka.ms/B
 
 ### Terraform
 
-- [`@Azure/avm-core-team-technical-terraform`](https://github.com/orgs/Azure/teams/avm-core-team-technical-terraform) = AVM Core Team
-- [`@Azure/terraform-avm`](https://github.com/orgs/Azure/teams/terraform-avm) = Terraform PG
+- [`@Azure/avm-core-team-technical-terraform`](https://github.com/orgs/zojovano/teams/avm-core-team-technical-terraform) = AVM Core Team
+- [`@Azure/terraform-avm`](https://github.com/orgs/zojovano/teams/terraform-avm) = Terraform PG
 
 {{% notice style="important" %}}
 Module owners **MUST** assign these GitHub teams as admins on the GitHub repo of the module in question.

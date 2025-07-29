@@ -7,7 +7,7 @@ description: Frequently Asked Questions (FAQ) for the Azure Verified Modules (AV
 
 {{% notice style="tip" %}}
 
-Got an unanswered question? Create a [GitHub Issue](https://github.com/Azure/Azure-Verified-Modules/issues) so we can get it answered and added here for everyone's benefit 👍
+Got an unanswered question? Create a [GitHub Issue](https://github.com/zojovano/azure-verified-modules-copy/issues) so we can get it answered and added here for everyone's benefit 👍
 
 {{% /notice %}}
 
@@ -82,7 +82,7 @@ If the relevant AVM module isn't available to use to assist the Landing Zone Acc
 
 While the principles and practices of AVM are largely applicable to other clouds and services such as, Microsoft 365 & Azure DevOps, the AVM program (today) only covers Azure cloud resources and architectures.
 
-However, if you think this program, or a similar one, should exist to cover these other Microsoft Cloud offerings, please give a 👍 or leave a comment on this [GitHub Issue #71](https://github.com/Azure/Azure-Verified-Modules/issues/71) in the AVM repository.
+However, if you think this program, or a similar one, should exist to cover these other Microsoft Cloud offerings, please give a 👍 or leave a comment on this [GitHub Issue #71](https://github.com/zojovano/azure-verified-modules-copy/issues/71) in the AVM repository.
 
 ---
 
@@ -94,7 +94,7 @@ Yes, the AVM team is partnering with the AZD team and they are already using Bic
 
 ### Will AVM support OpenTofu?
 
-Please see our OpenTofu support statement in this [discussion on GitHub](https://github.com/Azure/Azure-Verified-Modules/discussions/1512).
+Please see our OpenTofu support statement in this [discussion on GitHub](https://github.com/zojovano/azure-verified-modules-copy/discussions/1512).
 
 ---
 
@@ -226,7 +226,7 @@ You can contribute to modules:
 
 1. Become an owner (preferred):
     - [Propose](https://aka.ms/ModuleProposal) and develop a new module (Bicep or Terraform) or pick up a module someone else proposed.
-    - Become the owner of an orphaned module (mainly Bicep) - look for "orphaned module" issues [here](https://github.com/Azure/Azure-Verified-Modules/issues?q=is%3Aopen+is%3Aissue+label%3A%22Status%3A+Module+Orphaned+%3Aeyes%3A%22) or see the "Orphaned" swimlane [here](https://github.com/orgs/Azure/projects/529/views/1?filterQuery=is%3Aissue+is%3Aopen+is%3Aissue+is%3Aopen+label%3A%22Status%3A+Module+Orphaned+%3Aeyes%3A%22)
+    - Become the owner of an orphaned module (mainly Bicep) - look for "orphaned module" issues [here](https://github.com/zojovano/azure-verified-modules-copy/issues?q=is%3Aopen+is%3Aissue+label%3A%22Status%3A+Module+Orphaned+%3Aeyes%3A%22) or see the "Orphaned" swimlane [here](https://github.com/orgs/zojovano/projects/529/views/1?filterQuery=is%3Aissue+is%3Aopen+is%3Aissue+is%3Aopen+label%3A%22Status%3A+Module+Orphaned+%3Aeyes%3A%22)
 2. Become an administrative owner and work with other contributors or co-owners on developing and maintaining modules.
 3. Volunteer as a co-owner or module contributor to an existing module, and work along other contributors and the (administrative) module owner.
 4. You can submit a PR with a small proposed change without officially becoming a module owner or contributor.
@@ -436,4 +436,4 @@ However, we kept the door open to make this possible in the future if there is a
 
 ### If I use AVM modules in my solution, do I need to have the MIT license in my own repo also? Do I need to add or reference AVM's license in my solution?
 
-Microsoft is not in the position of providing legal guidance on what licensing model your product/solution/etc. (the "Software") leveraging Azure Verified Modules can or should be under. Generally speaking, the MIT license is permissive and allows you to freely use, modify, and distribute the code and does not mandate you to have your entire Software under the MIT license, but you must follow the requirements for the MIT-licensed code that you carry. As stated in the AVM LICENSE reference [here](https://github.com/Azure/Azure-Verified-Modules/blob/823d79037d9decbcb4a5bdb4a044f2d3f3975ac3/LICENSE#L12C5-L13C52), the described "*copyright notice and permission notice shall be included in all copies or substantial portions of the Software*".
+Microsoft is not in the position of providing legal guidance on what licensing model your product/solution/etc. (the "Software") leveraging Azure Verified Modules can or should be under. Generally speaking, the MIT license is permissive and allows you to freely use, modify, and distribute the code and does not mandate you to have your entire Software under the MIT license, but you must follow the requirements for the MIT-licensed code that you carry. As stated in the AVM LICENSE reference [here](https://github.com/zojovano/azure-verified-modules-copy/blob/823d79037d9decbcb4a5bdb4a044f2d3f3975ac3/LICENSE#L12C5-L13C52), the described "*copyright notice and permission notice shall be included in all copies or substantial portions of the Software*".

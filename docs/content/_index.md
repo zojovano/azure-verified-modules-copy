@@ -10,7 +10,7 @@ We are aware of an issue impacting the [Terraform AVM module `avm-res-network-vi
 
 **We are pleased to confirm that the issue has been resolved and the module is now available again 👍**
 
-For more information and any assistance required please refer to this [GitHub issue](https://github.com/Azure/Azure-Verified-Modules/issues/2196)
+For more information and any assistance required please refer to this [GitHub issue](https://github.com/zojovano/azure-verified-modules-copy/issues/2196)
 
 {{% /notice %}}
 

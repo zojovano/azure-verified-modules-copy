@@ -11,7 +11,7 @@ This page will detail any of the known issues that consumers may come across whe
 
 Issues related to an AVM module must be raised on the repo they are hosted on, not the AVM Central (`Azure/Azure-Verified-Modules`) repo!
 
-Although, if you think a known issue is missing from this page please create an issue on the AVM Central [`Azure/Azure-Verified-Modules`](https://github.com/Azure/Azure-Verified-Modules/issues/new/choose) repo.
+Although, if you think a known issue is missing from this page please create an issue on the AVM Central [`Azure/Azure-Verified-Modules`](https://github.com/zojovano/azure-verified-modules-copy/issues/new/choose) repo.
 
 *If you accidentally raise an issue in the wrong place, we will transfer it to its correct home. 👍*
 
@@ -35,7 +35,7 @@ While this isn't an AVM issue, we understand that consumers of AVM Bicep modules
 
 {{% notice style="note" title="Other Related GitHub Issues" icon="fa-brands fa-github" %}}
 
-- [`Azure/Azure-Verified-Modules #797` - [AVM Question/Feedback]: Output of what-if (if any) can't be trusted](https://github.com/Azure/Azure-Verified-Modules/issues/797)
+- [`Azure/Azure-Verified-Modules #797` - [AVM Question/Feedback]: Output of what-if (if any) can't be trusted](https://github.com/zojovano/azure-verified-modules-copy/issues/797)
 
 {{% /notice %}}
 

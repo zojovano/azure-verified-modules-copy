@@ -1,4 +1,4 @@
-﻿[Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSAvoidUsingWriteHost", "", Justification = "Coloured output required in this script")]
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSAvoidUsingWriteHost", "", Justification = "Coloured output required in this script")]
 
 #Requires -PSEdition Core
 #Requires -Modules @{ ModuleName="Az.Accounts"; ModuleVersion="2.19.0" }
@@ -12,11 +12,11 @@ This function creates and sets up everything a contributor to the AVM Bicep proj
 This function creates and sets up everything a contributor to the AVM Bicep project should need to get started with their contribution to a AVM Bicep Module. This includes:
 
 - Forking and cloning the `Azure/bicep-registry-modules` repository
-- Creating a new SPN and granting it the necessary permissions for the CI tests and configuring the forked repositories secrets, as per: https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/#2-configure-a-deployment-identity-in-azure
+- Creating a new SPN and granting it the necessary permissions for the CI tests and configuring the forked repositories secrets, as per: https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/#2-configure-a-deployment-identity-in-azure
 - Enabling GitHub Actions on the forked repository
-- Disabling all the module workflows by default, as per: https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/enable-or-disable-workflows/
+- Disabling all the module workflows by default, as per: https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/enable-or-disable-workflows/
 
-Effectively simplifying this process to a single command, https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/
+Effectively simplifying this process to a single command, https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/
 
 .PARAMETER GitHubRepositoryPathForCloneOfForkedRepository
 Mandatory. The path to the GitHub repository to fork and clone. Directory will be created if does not already exist. Can use either relative paths or full literal paths.
@@ -46,7 +46,7 @@ Optional. The name of the Resource Group to create for the UAMI (User Assigned M
 Optional. The location of the Resource Group to create for the UAMI (User Assigned Managed Identity) to create. Also UAMI will be created in this location. This is required for OIDC deployments.
 
 .PARAMETER UseOIDC
-Optional. Default is `$true`. If set to `$true`, the script will use the OIDC (OpenID Connect) authentication method for the SPN instead of secrets as per https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/#31-set-up-secrets. If set to `$false`, the script will use the Client Secret authentication method for the SPN and not OIDC.
+Optional. Default is `$true`. If set to `$true`, the script will use the OIDC (OpenID Connect) authentication method for the SPN instead of secrets as per https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/#31-set-up-secrets. If set to `$false`, the script will use the Client Secret authentication method for the SPN and not OIDC.
 
 .EXAMPLE
 .\<PATH-TO-SCRIPT-DOWNLOAD-LOCATION>\New-AVMBicepBRMForkSetup.ps1 -GitHubRepositoryPathForCloneOfForkedRepository "D:\GitRepos\" -GitHubSecret_ARM_MGMTGROUP_ID "alz" -GitHubSecret_ARM_SUBSCRIPTION_ID "1b60f82b-d28e-4640-8cfa-e02d2ddb421a" -GitHubSecret_ARM_TENANT_ID "c3df6353-a410-40a1-b962-e91e45e14e4b" -GitHubSecret_TOKEN_NAMEPREFIX "ex123" -UAMIRsgLocation "uksouth"
@@ -201,7 +201,7 @@ if ($UseOIDC -eq $false) {
 
     $SPNName = "spn-avm-bicep-brm-fork-ci-$($GitHubOrgName)"
   }
-  $newSpn = New-AzADServicePrincipal -DisplayName $SPNName -Description "Service Principal Name (SPN) for the AVM Bicep CI Tests in the $($GitHubOrgName) fork. See: https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/#2-configure-a-deployment-identity-in-azure" -ErrorAction Stop
+  $newSpn = New-AzADServicePrincipal -DisplayName $SPNName -Description "Service Principal Name (SPN) for the AVM Bicep CI Tests in the $($GitHubOrgName) fork. See: https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/#2-configure-a-deployment-identity-in-azure" -ErrorAction Stop
   Write-Host "New SPN created with a Display Name of '$($newSpn.DisplayName)' and an Object ID of '$($newSpn.Id)'." -ForegroundColor Green
   Write-Host ''
 
@@ -370,13 +370,13 @@ do {
   switch ($userInput) {
     'y' {
       Write-Host ''
-      Write-Host "User Confirmed. Proceeding to trigger workflow of '$($GitHubWorkflowPlatformToggleWorkflows)' to disable all workflows as per: https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/enable-or-disable-workflows/..." -ForegroundColor Green
+      Write-Host "User Confirmed. Proceeding to trigger workflow of '$($GitHubWorkflowPlatformToggleWorkflows)' to disable all workflows as per: https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/enable-or-disable-workflows/..." -ForegroundColor Green
       Write-Host ''
       break
     }
     'n' {
       Write-Host ''
-      Write-Host 'User stated no. Ending script here. Please review and complete any of the steps you have not completed, likely just enabling GitHub Actions/Workflows on your forked repository and then disabling all workflows as per: https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/enable-or-disable-workflows/' -ForegroundColor Yellow
+      Write-Host 'User stated no. Ending script here. Please review and complete any of the steps you have not completed, likely just enabling GitHub Actions/Workflows on your forked repository and then disabling all workflows as per: https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/enable-or-disable-workflows/' -ForegroundColor Yellow
       exit
     }
     default {
@@ -404,5 +404,5 @@ Write-Host "Workflow '$($GitHubWorkflowPlatformToggleWorkflows) on '$($GitHubOrg
 Start-Process "https://github.com/$($GitHubOrgAndRepoNameCombined)/actions/workflows/$($GitHubWorkflowPlatformToggleWorkflowsFileName)" -ErrorAction Stop
 Write-Host ''
 
-Write-Host "Script execution complete. Fork of '$($GitHubOrgAndRepoNameCombined)' created and configured and cloned to '$($ClonedRepoDirectoryLocation)' as per Bicep contribution guide: https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/ you are now ready to proceed from step 4. Opening the Bicep Contribution Guide for you to review and continue..." -ForegroundColor Green
-Start-Process 'https://azure.github.io/Azure-Verified-Modules/contributing/bicep/bicep-contribution-flow/'
+Write-Host "Script execution complete. Fork of '$($GitHubOrgAndRepoNameCombined)' created and configured and cloned to '$($ClonedRepoDirectoryLocation)' as per Bicep contribution guide: https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/ you are now ready to proceed from step 4. Opening the Bicep Contribution Guide for you to review and continue..." -ForegroundColor Green
+Start-Process 'https://zojovano.github.io/azure-verified-modules-copy/contributing/bicep/bicep-contribution-flow/'

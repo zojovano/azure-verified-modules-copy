@@ -63,7 +63,7 @@ It is critical to the consumers experience that modules continue to be maintaine
 2. If no replacement can be found or the module owner leaves Microsoft without giving warning to the AVM core team, the AVM core team will provide essential maintenance (critical bug and security fixes), as per the [Module Support page]({{% siteparam base %}}/help-support/module-support/)
 3. The AVM core team will continue to try and re-assign the module ownership.
 4. While a module is in an orphaned state, only security and bug fixes **MUST** be made, no new feature development will be worked on until a new owner is found that can then lead this effort for the module.
-5. An issue will be created on the central AVM repo (`Azure/Azure-Verified-Modules`) to track the finding of a new owner for a module.
+5. An issue will be created on the central AVM repo (`zojovano/azure-verified-modules-copy`) to track the finding of a new owner for a module.
 
 {{% notice style="info" %}}
 

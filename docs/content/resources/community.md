@@ -25,7 +25,7 @@ Stay tuned, to be announced! 👂
 ### 1st July 2025
 
 <!-- - [Registration](https://msit.events.teams.microsoft.com/event/67b709f3-b3b5-4b5d-943e-34fe22714bf2@72f988bf-86f1-41af-91ab-2d7cd011db47) -->
-- [GitHub Issue for Q&A section](https://github.com/Azure/Azure-Verified-Modules/issues/2109)
+- [GitHub Issue for Q&A section](https://github.com/zojovano/azure-verified-modules-copy/issues/2109)
 - [AVM Community Call July 2025 Slides]({{% siteparam base %}}/community/avm-community-call-july25.pdf)
 
 <div style="width:70%; margin: 0 auto;">
@@ -35,7 +35,7 @@ Stay tuned, to be announced! 👂
 ### 6th February 2025
 
 <!-- - [Registration](https://msit.events.teams.microsoft.com/event/5c5ccd0d-4993-44b7-9075-700901263276@72f988bf-86f1-41af-91ab-2d7cd011db47) -->
-- [GitHub Issue for Q&A section](https://github.com/Azure/Azure-Verified-Modules/issues/1793)
+- [GitHub Issue for Q&A section](https://github.com/zojovano/azure-verified-modules-copy/issues/1793)
 - [AVM Community Call February 2025 Slides]({{% siteparam base %}}/community/avm-community-call-feb25.pdf)
 
 <div style="width:70%; margin: 0 auto;">
@@ -51,7 +51,7 @@ Stay tuned, to be announced! 👂
 ### 24th September 2024
 
 <!-- - [Registration](https://msit.events.teams.microsoft.com/event/74fc1d31-fc02-411d-bb3c-a4969833d178@72f988bf-86f1-41af-91ab-2d7cd011db47) -->
-- [GitHub Issue for Q&A section](https://github.com/Azure/Azure-Verified-Modules/issues/1387)
+- [GitHub Issue for Q&A section](https://github.com/zojovano/azure-verified-modules-copy/issues/1387)
 - [AVM Community Call September 2024 Slides]({{% siteparam base %}}/community/avm-community-call-sept24.pdf)
 
 <div style="width:70%; margin: 0 auto;">
@@ -61,7 +61,7 @@ Stay tuned, to be announced! 👂
 ### 21st May 2024
 
 <!-- - [Registration](https://msit.events.teams.microsoft.com/event/0934dbca-3fc0-4a0e-a13f-c4c9dc68889b@72f988bf-86f1-41af-91ab-2d7cd011db47) -->
-- [GitHub Issue for Q&A section](https://github.com/Azure/Azure-Verified-Modules/issues/859)
+- [GitHub Issue for Q&A section](https://github.com/zojovano/azure-verified-modules-copy/issues/859)
 - [AVM Community Call May 2024 Slides]({{% siteparam base %}}/community/avm-community-call-may24.pdf)
 
 <div style="width:70%; margin: 0 auto;">

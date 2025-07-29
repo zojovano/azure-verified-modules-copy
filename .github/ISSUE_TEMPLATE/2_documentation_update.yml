@@ -12,7 +12,7 @@ body:
     id: existing-checks
     attributes:
       label: Check for previous/existing GitHub issues
-      description: By submitting this issue, you confirm that you have [searched for previous/existing GitHub issues](https://github.com/Azure/Azure-Verified-Modules/issues?q=is%3Aissue+sort%3Aupdated-desc+) to avoid creating a duplicate.
+      description: By submitting this issue, you confirm that you have [searched for previous/existing GitHub issues](https://github.com/zojovano/azure-verified-modules-copy/issues?q=is%3Aissue+sort%3Aupdated-desc+) to avoid creating a duplicate.
       options:
         - label: I have checked for previous/existing GitHub issues
           required: true

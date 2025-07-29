@@ -5,13 +5,13 @@ Thanks for confirming that you wish to own this AVM module and understand the re
 
 Before starting development, please ensure ALL the following requirements are met.
 
-**Please use the following values explicitly as provided in the [module index](https://azure.github.io/Azure-Verified-Modules/indexes/) page**:
+**Please use the following values explicitly as provided in the [module index](https://zojovano.github.io/azure-verified-modules-copy/indexes/) page**:
 
 - For your module:
   - `ModuleName` - for naming your module
-  - `TelemetryIdPrefix` - for your module's [telemetry](https://azure.github.io/Azure-Verified-Modules/spec/SFR3)
+  - `TelemetryIdPrefix` - for your module's [telemetry](https://zojovano.github.io/azure-verified-modules-copy/spec/SFR3)
   - Folder path are defined in `RepoURL`.
-  - Create GitHub teams for module owners and contributors and grant them permissions as outlined [here](https://azure.github.io/Azure-Verified-Modules/spec/SNFR20).
+  - Create GitHub teams for module owners and contributors and grant them permissions as outlined [here](https://zojovano.github.io/azure-verified-modules-copy/spec/SNFR20).
 
 Check if this module exists in the other IaC language. If so, collaborate with the other owner for consistency. 👍
 

@@ -43,6 +43,6 @@ jobs:
 
       - name: Sync Labels
         run: |
-          docs/static/scripts/Set-AvmGitHubLabels.ps1 -RepositoryName "Azure/Azure-Verified-Modules" -CreateCsvLabelExports $false -NoUserPrompts $true
+          docs/static/scripts/Set-AvmGitHubLabels.ps1 -RepositoryName "zojovano/azure-verified-modules-copy" -CreateCsvLabelExports $false -NoUserPrompts $true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
