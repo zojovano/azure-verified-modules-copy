@@ -1,6 +1,8 @@
 # AVM Copy Instructions
 
-1) Git Clone AVM 
+1) Create new (empty) GitHub Ent repo
+
+1) Git Clone AVM: https://github.com/Azure/Azure-Verified-Modules 
 
 2) Remove Git History 
 
