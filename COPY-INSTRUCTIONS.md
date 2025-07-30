@@ -27,3 +27,7 @@
 4) Remove hard-coded references to old repo
 
 - Use GitHub Copilot Agent mode to get help with replacements 
+
+- prompt used in the test:
+This repo is cloned from https://github.com/Azure/Azure-Verified-Modules into https://github.com/zojovano/azure-verified-modules-copy.
+Find all occurrences of hard coded URLs for https://github.com/Azure/Azure-Verified-Modules and replace it with https://github.com/zojovano/azure-verified-modules-copy. Include also GitHub Pages related content.
